@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Velvet Studio | Model Recruitment</title>
+    <meta
+      name="description"
+      content="Join Velvet Studio, become a model, grow your brand, and earn online."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <div class="logo">
+          <span class="logo-mark">V</span>
+          <span>Velvet Studio</span>
+        </div>
+
+        <nav class="nav-links">
+          <a href="#about">About</a>
+          <a href="#benefits">Benefits</a>
+          <a href="#apply">Apply</a>
+          <a href="#dashboard">Dashboard</a>
+        </nav>
+
+        <div class="nav-actions">
+          <button class="btn btn-ghost" data-open-modal="login">Login</button>
+          <button class="btn btn-primary" data-open-modal="signup">Create Account</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <div class="eyebrow">Premium Creator Studio</div>
+            <h1>Build your brand. Grow your income. Join the studio.</h1>
+            <p>
+              We help creators launch, manage, and scale their online income with
+              support, brand strategy, onboarding, and a high-converting studio network.
+            </p>
+
+            <div class="hero-actions">
+              <button class="btn btn-primary large" data-open-modal="signup">
+                Join My Studio
+              </button>
+              <a class="btn btn-secondary large" href="#apply">Become a Model</a>
+            </div>
+
+            <div class="hero-stats">
+              <div>
+                <strong>2.4k+</strong>
+                <span>Active Models</span>
+              </div>
+              <div>
+                <strong>24/7</strong>
+                <span>Creator Support</span>
+              </div>
+              <div>
+                <strong>98%</strong>
+                <span>Model Retention</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-card">
+            <div class="card-glow"></div>
+            <div class="account-box">
+              <div class="mini-badge">Creator Portal</div>
+              <h3>Welcome back</h3>
+              <div class="profile-row">
+                <div class="avatar">VS</div>
+                <div>
+                  <strong>Studio Dashboard</strong>
+                  <small>Secure access</small>
+                </div>
+              </div>
+
+              <ul class="card-list">
+                <li>Brand onboarding</li>
+                <li>Income analytics</li>
+                <li>Direct studio support</li>
+              </ul>
+
+              <div class="earn-card">
+                <span>This month</span>
+                <strong>$18,420</strong>
+                <small>Avg. creator payout</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <div class="eyebrow">Why creators choose us</div>
+            <h2>Everything you need to grow safely and professionally.</h2>
+          </div>
+
+          <div class="feature-grid">
+            <div class="feature">
+              <div class="icon">01</div>
+              <h3>Fast onboarding</h3>
+              <p>Quick account creation and model application process with direct studio review.</p>
+            </div>
+            <div class="feature">
+              <div class="icon">02</div>
+              <h3>Brand support</h3>
+              <p>Positioning guidance, set-up support, and growth strategies tailored to your brand.</p>
+            </div>
+            <div class="feature">
+              <div class="icon">03</div>
+              <h3>Flexible income</h3>
+              <p>Build your own income model while working with a studio that supports your growth.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="benefits" class="section alt">
+        <div class="container split">
+          <div class="content-block">
+            <div class="eyebrow">For models</div>
+            <h2>Join a studio built for creators.</h2>
+            <ul class="tick-list">
+              <li>Apply in minutes and get fast review</li>
+              <li>Private support team and onboarding guidance</li>
+              <li>Income tracking and model growth tools</li>
+              <li>Improve your professional brand presence</li>
+            </ul>
+          </div>
+
+          <div class="glass-panel">
+            <div class="panel-head">
+              <span>Model Performance</span>
+              <strong>Live Overview</strong>
+            </div>
+
+            <div class="metric-row">
+              <div>
+                <small>Views</small>
+                <strong>24.8k</strong>
+              </div>
+              <div>
+                <small>Income</small>
+                <strong>$3,240</strong>
+              </div>
+            </div>
+
+            <div class="progress-box">
+              <div class="progress-label">
+                <span>Conversion growth</span>
+                <strong>+28%</strong>
+              </div>
+              <div class="progress">
+                <span style="width: 72%"></span>
+              </div>
+            </div>
+
+            <div class="progress-box">
+              <div class="progress-label">
+                <span>Engagement</span>
+                <strong>82%</strong>
+              </div>
+              <div class="progress">
+                <span style="width: 82%"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="apply" class="section">
+        <div class="container form-wrap">
+          <div class="section-heading left">
+            <div class="eyebrow">Application</div>
+            <h2>Become a model with Velvet Studio</h2>
+          </div>
+
+          <form id="modelForm" class="studio-form">
+            <div class="grid-2">
+              <label>
+                Full name
+                <input type="text" name="fullName" placeholder="Your legal name" required />
+              </label>
+
+              <label>
+                Stage name
+                <input type="text" name="stageName" placeholder="Your brand name" required />
+              </label>
+
+              <label>
+                Email
+                <input type="email" name="email" placeholder="you@example.com" required />
+              </label>
+
+              <label>
+                Phone
+                <input type="tel" name="phone" placeholder="+1 555 888 2222" required />
+              </label>
+
+              <label>
+                Age
+                <input type="number" name="age" min="18" max="60" placeholder="18+" required />
+              </label>
+
+              <label>
+                Platform
+                <select name="platform" required>
+                  <option value="">Choose platform</option>
+                  <option value="stripchat">Stripchat</option>
+                  <option value="chaturbate">Chaturbate</option>
+                  <option value="manyvids">ManyVids</option>
+                  <option value="onlyfans">OnlyFans</option>
+                  <option value="other">Other</option>
+                </select>
+              </label>
+            </div>
+
+            <label>
+              Experience
+              <textarea
+                name="experience"
+                rows="5"
+                placeholder="Tell us about your experience, audience, content style, and goals."
+                required
+              ></textarea>
+            </label>
+
+            <div class="inline-actions">
+              <button type="submit" class="btn btn-primary">Submit Application</button>
+              <a class="text-link" href="https://stripchat.com" target="_blank" rel="noreferrer">
+                Open Stripchat Signup
+              </a>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section id="dashboard" class="section alt">
+        <div class="container dashboard">
+          <div class="section-heading left">
+            <div class="eyebrow">Creator dashboard</div>
+            <h2>Track your growth and earnings.</h2>
+          </div>
+
+          <div class="dashboard-grid">
+            <div class="dashboard-card">
+              <span>Monthly income</span>
+              <strong>$14,200</strong>
+              <small>+18.2% from last month</small>
+            </div>
+
+            <div class="dashboard-card">
+              <span>Active clients</span>
+              <strong>184</strong>
+              <small>+22 new this week</small>
+            </div>
+
+            <div class="dashboard-card">
+              <span>Model ranking</span>
+              <strong>Top 7%</strong>
+              <small>Based on engagement</small>
+            </div>
+
+            <div class="dashboard-card">
+              <span>Payout status</span>
+              <strong>Ready</strong>
+              <small>Next payment in 3 days</small>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div>
+          <div class="logo">
+            <span class="logo-mark">V</span>
+            <span>Velvet Studio</span>
+          </div>
+          <p>Build your brand. Grow your income. Stay in control.</p>
+        </div>
+
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#apply">Apply</a>
+          <a href="#dashboard">Dashboard</a>
+          <a href="https://stripchat.com" target="_blank" rel="noreferrer">Stripchat</a>
+        </div>
+      </div>
+    </footer>
+
+    <div class="modal" id="loginModal">
+      <div class="modal-inner">
+        <button class="close-btn" aria-label="Close modal">&times;</button>
+        <div class="modal-header">
+          <div class="eyebrow">Login</div>
+          <h3>Welcome back</h3>
+        </div>
+
+        <form id="loginForm" class="modal-form">
+          <label>
+            Email
+            <input type="email" id="loginEmail" placeholder="you@example.com" required />
+          </label>
+
+          <label>
+            Password
+            <input type="password" id="loginPassword" placeholder="Enter your password" required />
+          </label>
+
+          <button type="submit" class="btn btn-primary full">Login</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="modal" id="signupModal">
+      <div class="modal-inner">
+        <button class="close-btn" aria-label="Close modal">&times;</button>
+        <div class="modal-header">
+          <div class="eyebrow">Create account</div>
+          <h3>Join the studio</h3>
+        </div>
+
+        <form id="signupForm" class="modal-form">
+          <label>
+            Full name
+            <input type="text" id="signupName" placeholder="Your full name" required />
+          </label>
+
+          <label>
+            Email
+            <input type="email" id="signupEmail" placeholder="you@example.com" required />
+          </label>
+
+          <label>
+            Password
+            <input type="password" id="signupPassword" placeholder="Create password" required />
+          </label>
+
+          <label>
+            I want to:
+            <select id="signupRole" required>
+              <option value="">Choose role</option>
+              <option value="model">Become a model</option>
+              <option value="studio">Join as studio member</option>
+            </select>
+          </label>
+
+          <button type="submit" class="btn btn-primary full">Create Account</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
